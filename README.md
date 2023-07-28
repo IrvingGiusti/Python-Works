@@ -87,3 +87,13 @@ git remot add origin +URL do diretório no Github (adiciona o repositório do Gi
 git push -u origin main (envia os arquivos do repositório local para o repositório remoto)
 
 git pull (busca os arquivos do repositório remoto e atualiza no repositório local)
+
+git checkout -b +nome da branch (Criar uma nova branch e muda para a branch criada)
+
+git checkout +nome da branch (muda o local para a branch informada)
+
+git branch -v (lista os últimos commit de cada branch existente)
+
+git merge +nome da branch (mescla a branch informada a branch principal)
+
+git branch -d +nome da branch (exclui a branch informada)
