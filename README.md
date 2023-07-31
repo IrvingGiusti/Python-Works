@@ -1,10 +1,6 @@
 # TreinamentoDIO
 
-<<<<<<< HEAD
 ## Comandos do Git
-=======
-## Comandos Git
->>>>>>> 73581906899b63528e5d4d6d8d0bada8341fa373
 
 git config (Mostra as informações de comandos do Git)
 
@@ -60,7 +56,7 @@ git status (informa os status do diretório)
 
 git add +nome do arquivo (Prepara o arquivo para ser comitado)
 
-git add . (prepara todos os arquvis di diretório para serem commitados)
+git add . (prepara todos os arquvos do diretório para serem commitados)
 
 git commit -m”+texto de sua escolha” (comita o arquivo junto com uma mensagem)
 
@@ -90,9 +86,6 @@ git remot add origin +URL do diretório no Github (adiciona o repositório do Gi
 
 git push -u origin main (envia os arquivos do repositório local para o repositório remoto)
 
-<<<<<<< HEAD
-git pull (busca os arquivos do repositório remoto e atualiza no repositório local)
-=======
 git pull (busca os arquivos do repositório remoto e atualiza no repositório local)
 
 git checkout -b +nome da branch (Criar uma nova branch e muda para a branch criada)
@@ -104,4 +97,7 @@ git branch -v (lista os últimos commit de cada branch existente)
 git merge +nome da branch (mescla a branch informada a branch principal)
 
 git branch -d +nome da branch (exclui a branch informada)
->>>>>>> 73581906899b63528e5d4d6d8d0bada8341fa373
+
+git diff +nome da primeira branch +nome da segunda branch (compara as branchs informadas)
+
+git clone +link do repositório --nome da branch --sigle-branch (clona apenas a branch informada)
